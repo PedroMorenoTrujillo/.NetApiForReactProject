@@ -36,7 +36,8 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //Comentado porque solo se usa en ambiente de produccion
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

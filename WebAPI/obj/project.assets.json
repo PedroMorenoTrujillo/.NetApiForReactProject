@@ -1,11 +1,67 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Aplicacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dominio": "1.0.0",
+          "Persistencia": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aplicacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aplicacion.dll": {}
+        }
+      },
+      "Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dominio.dll": {}
+        }
+      },
+      "Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistencia.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Aplicacion/1.0.0": {
+      "type": "project",
+      "path": "../Aplicacion/Aplicacion.csproj",
+      "msbuildProject": "../Aplicacion/Aplicacion.csproj"
+    },
+    "Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
+    },
+    "Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../Persistencia/Persistencia.csproj",
+      "msbuildProject": "../Persistencia/Persistencia.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Aplicacion >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pb\\.nuget\\packages\\": {},
@@ -15,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Pb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -39,7 +95,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
