@@ -15,6 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Persistencia;
+using WebAPI.Middleware;
 
 namespace WebAPI
 {
@@ -49,9 +50,13 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //middleware para la gestion de errores personalizados
+            app.UseMiddleware<ManejadorErrorMiddleware>();
+
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //Como hay creado un middleware no voy a usar este metodo
+                //app.UseDeveloperExceptionPage();
             }
 
             //Comentado porque solo se usa en ambiente de produccion
