@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AhL+f0DtkJVcCZJNrnkl/r2YZJaEw4WtDCYqfnJ/c1uFwhqQCuYK3InZAI6/ZcyGX0QFoyGei+BXGMf/zvwpBw==",
+  "dgSpecHash": "3ACATvuSLshAqFp1KE1fvSRKe4SEz55kBhhj3uwo3+s2u4ZW/YVNhKtcyJFSk5quEx90DfkwAXcypBCGSS2dtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\Dominio\\Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
