@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c0ZvkSQsqpbRa6epqNdcb1q/vBCmmLL+T6y60FyKL/gFSE5CfQMLlua1alBXS2iyEIQDyEG+4kDDLKk1EFoJjA==",
+  "dgSpecHash": "HUWHSNUUgs53gYaUGuogoN9xKDuDRBFFTWcQlXH2M3rKAMx6WPccsHO5k1S/u/8c+LN7tq1y0RpzzPKV0yCU4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pb\\.nuget\\packages\\fluentvalidation\\8.6.3\\fluentvalidation.8.6.3.nupkg.sha512",
     "C:\\Users\\Pb\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.3\\fluentvalidation.aspnetcore.8.6.3.nupkg.sha512",

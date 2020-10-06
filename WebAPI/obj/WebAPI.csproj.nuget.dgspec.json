@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\WebAPI.csproj": {}
   },
   "projects": {
     "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
@@ -225,14 +225,14 @@
         }
       }
     },
-    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Pb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
