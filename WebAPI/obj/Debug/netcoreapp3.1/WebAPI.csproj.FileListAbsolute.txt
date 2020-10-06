@@ -45,16 +45,8 @@ C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microso
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
@@ -71,3 +63,8 @@ C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\FluentV
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
