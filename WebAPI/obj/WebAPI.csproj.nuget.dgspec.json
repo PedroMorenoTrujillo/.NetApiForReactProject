@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\WebAPI.csproj": {}
+    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
     "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
@@ -50,6 +50,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -207,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\WebAPI.csproj": {
+    "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Pb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
