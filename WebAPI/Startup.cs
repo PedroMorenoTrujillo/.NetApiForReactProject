@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Aplicacion.Contratos;
 using Aplicacion.Cursos;
@@ -8,17 +9,21 @@ using Dominio;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Persistencia;
 using Seguridad;
 using WebAPI.Middleware;
@@ -44,7 +49,11 @@ namespace WebAPI {
 
             //services.AddControllers()
             //Configuramos el nuevo metodo con la libreria fluent para las validaciones
-            services.AddControllers ().AddFluentValidation (cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo> ());
+            services.AddControllers (opt => {
+                    var policy = new AuthorizationPolicyBuilder ().RequireAuthenticatedUser ().Build ();
+                    opt.Filters.Add (new AuthorizeFilter (policy));
+                })
+                .AddFluentValidation (cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo> ());
 
             //Configuracion necesaria para que funcione el CoreIdentity desde la API
             var builder = services.AddIdentityCore<Usuario> ();
@@ -53,8 +62,20 @@ namespace WebAPI {
             identityBuilder.AddSignInManager<SignInManager<Usuario>> ();
             services.TryAddSingleton<ISystemClock, SystemClock> ();
 
+            //Logica para la autorizacion del JWT
+            var key = new SymmetricSecurityKey (Encoding.UTF8.GetBytes ("Mi palabra secreta"));
+            services.AddAuthentication (JwtBearerDefaults.AuthenticationScheme).AddJwtBearer (opt => {
+                opt.TokenValidationParameters = new TokenValidationParameters {
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = key,
+                ValidateAudience = false,
+                ValidateIssuer = false
+                };
+            });
+
             //Una vez creada la carpeta seguridad ...
             services.AddScoped<IJwtGenerador, JwtGenerador> ();
+            services.AddScoped<IUsuarioSesion, UsuarioSesion> ();
 
         }
 
@@ -70,6 +91,9 @@ namespace WebAPI {
 
             //Comentado porque solo se usa en ambiente de produccion
             //app.UseHttpsRedirection();
+
+            //Uso de la autenticacion que se ha creado en el metodo configure service
+            app.UseAuthentication ();
 
             app.UseRouting ();
 

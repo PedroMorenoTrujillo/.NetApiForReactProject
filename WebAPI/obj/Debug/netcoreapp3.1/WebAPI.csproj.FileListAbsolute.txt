@@ -74,3 +74,6 @@ C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microso
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Pb\Documents\GitHub\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\webapi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\webapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Pb\Documents\GitHub\ProyectoCore\webapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
