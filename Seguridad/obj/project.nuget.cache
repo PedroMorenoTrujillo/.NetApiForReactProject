@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zmu+w09q/4/Ld7B9p7psRSHk3o3BT87QmnwyWK3okz08iXhXeK9cA/ozUN/ns4VyUU4pDf7bv3sIVGaHoWO0IA==",
+  "dgSpecHash": "ztLtwkq5HVXE8k+utjeglPSi/gyYBFnBk90RgWhghug9nrqDfYUmjBeYaKze5RpZxLXzlvNVzjY+HZjC0WSfdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\webapi\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Pb\\Documents\\GitHub\\ProyectoCore\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pb\\.nuget\\packages\\fluentvalidation\\8.6.3\\fluentvalidation.8.6.3.nupkg.sha512",
     "C:\\Users\\Pb\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.3\\fluentvalidation.aspnetcore.8.6.3.nupkg.sha512",
@@ -43,7 +43,6 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
-    "C:\\Users\\Pb\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
